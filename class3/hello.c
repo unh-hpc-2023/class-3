@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-void
-greeting(void)
-{
-  printf("Hi there.\n");
-}
+void greeting();
 
 int
 factorial(int n)

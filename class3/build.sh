@@ -2,4 +2,4 @@
 
 set -x
 
-gcc hello.c -o hello
+gcc hello.c greeting.c -o hello
