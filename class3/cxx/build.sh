@@ -2,4 +2,6 @@
 
 set -x
 
-g++ hello.cxx -o hello
+g++ -c hello.cxx
+g++ -c greeting.cxx
+g++ hello.o greeting.o -o hello

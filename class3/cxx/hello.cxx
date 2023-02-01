@@ -1,6 +1,6 @@
 #include <iostream>
 
-void greeting() { std::cout << "Hi there.\n"; }
+void greeting();
 
 int factorial(int n)
 {
