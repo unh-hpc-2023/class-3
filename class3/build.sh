@@ -2,6 +2,6 @@
 
 set -x
 
-gcc -c hello.c
-gcc -c greeting.c
+gcc -Wall -c hello.c
+gcc -Wall -c greeting.c
 gcc hello.o greeting.o -o hello
