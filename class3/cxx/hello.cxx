@@ -1,6 +1,7 @@
-#include <iostream>
 
-void greeting();
+#include "hello.h"
+
+#include <iostream>
 
 int factorial(int n)
 {
